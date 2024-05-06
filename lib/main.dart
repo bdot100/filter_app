@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Column(
           children: [
-            SizedBox(height: 50,),
+            const SizedBox(height: 50,),
             CategoryFilter(),
             Container(
               height: 2,
